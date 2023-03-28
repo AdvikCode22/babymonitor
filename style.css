@@ -1,0 +1,35 @@
+.heading{
+    font-size: 35px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black
+}
+
+#status{
+    font-size: 20px;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: 'Itim', cursive;
+}
+
+canvas{
+    background-color: white;
+    border-radius: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(33, 33, 33);
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani{
+    0%{box-shadow: 3px 3px 8px lightcoral}
+    33%{box-shadow: 3px 3px 8px lightgoldenrodyellow}
+    66%{box-shadow: 3px 3px 8px lightskyblue;}
+    100%{box-shadow: 3px 3px 8px lightcoral;}
+}
